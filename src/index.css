@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter Tight", sans-serif;
+}
+
+body {
+  background-color: #E9E9E9;
+}
+
+.container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 20px auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 40px;
+  gap: 20px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 25px;
+}
+
+li {
+  list-style: none;
+  color: rgb(34, 34, 34);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.exp {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.exp > svg {
+  width: 12px;
+  height: 12px;
+}
+
+.search{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  background-color: #DDD;
+  padding: 13px 200px 13px 10px;
+  border-radius: 7px;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #111;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #111;
+  opacity: 1; 
+}
+
+.serch_svg {
+  width: 16px;
+  flex-shrink: 0;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 300ms;
+  font-weight: 500;
+}
+
+.same {
+  border: none;
+  background-color: transparent;
+  font-family: "Inter Tight";
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+  padding: 10px 5px;
+}
+
+.btn {
+  background-color: #222;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #383838;
+}
+
+.btn2 {
+  background-color: transparent;
+  border: 1px solid #222;
+  color: #000;
+}
+
+.btn2:hover {
+  background-color: #383838;
+  color: white;
+}
